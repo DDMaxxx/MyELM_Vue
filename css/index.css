@@ -1,0 +1,297 @@
+@charset "UTF-8";
+.topBar {
+    background-color: #f7f7f7;
+    height: 31px;
+    line-height: 31px;
+}
+
+.logoBar {
+    background-color: #1D7AD9;
+    height: 85px;
+}
+
+.leftArea {
+    float: left;
+}
+
+.rightArea {
+    float: right;
+    color: #656565;
+}
+
+.collection {
+    background: url(../img/icon/star.png) left center no-repeat;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #f00;
+}
+
+.logo {
+    padding-left: 40px;
+    padding-top: 14px;
+}
+
+/*搜索框*/
+.search_box {
+    width: 430px;
+    margin-left: 147px;
+    margin-top: 23px;
+}
+
+.search_text {
+    width: 350px;
+    height: 35px;
+    line-height: 35px \9;
+    padding: 0 5px;
+    float: left;
+}
+
+.search_btn {
+    width: 70px;
+    height: 35px;
+    background-color: #FF8C00;
+    font-size: 14px;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+/*购物车*/
+.shopCar {
+    width: 145px;
+    height: 35px;
+    margin-top: 23px;
+    margin-left: 35px;
+    color: white;
+    background-color: #FF8C00;
+    line-height: 35px;
+    margin-right: 58px;
+}
+
+.shopText {
+    border-right: 1px #E27A00 solid;
+    text-indent: 40px;
+    padding-right: 10px;
+    background: url("../img/icon/cart.png") 10px center no-repeat;
+    float: left;
+}
+
+.shopNum {
+    width: 28px;
+    display: inline-block;
+    float: left;
+    text-align: right;
+    padding-right: 28px;
+    border-left: 1px #FF9C01 solid;
+    background: url("../img/icon/caret.png") 33px center no-repeat;
+}
+
+/*导航*/
+.navBar {
+    height: 35px;
+    background-color: #1369C0;
+    line-height: 35px;
+}
+
+.shopClass {
+    width: 190px;
+    color: white;
+    position: relative;
+}
+
+.shopClass h3 {
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.shopClass i {
+    width: 12px;
+    height: 7px;
+    background: url("../img/icon/down.png") no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+.shapNav {
+    line-height: 35px;
+}
+
+.shapNav li {
+    float: left;
+}
+
+.shapNav a {
+    color: white;
+    padding: 0 32px;
+    height: 35px;
+    display: inline-block;
+}
+
+.shapNav a:hover {
+    background-color: #367FE3;
+}
+
+.shapNav .active {
+    background-color: #4593FD;
+}
+
+.shopclass_show {
+    position: absolute;
+    left: 0;
+    top: 35px;
+    width: 100%;
+}
+
+.shopClass_item {
+    text-align: left;
+    line-height: normal;
+    padding: 12px 0px 12px 10px;
+    background-color: #4593FD;
+    border-bottom: 1px solid #3487f2;
+    border-top: 1px solid #5aa1fe;
+}
+
+.shopClass_show dt {
+    height: 22px;
+}
+
+.shopClass_item a {
+    color: white;
+}
+
+.shopClass_item .aLink {
+    background: #1369C0;
+    border-radius: 12px;
+    padding: 2px 4px;
+    text-decoration: underline;
+}
+
+.shopClass_item .b {
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.hoveritem {
+    background-color: white;
+}
+
+.hoveritema {
+    color: #000;
+}
+
+.shopClass_list {
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    width: 586px;
+    border: 1px #dddddd solid;
+    background-color: white;
+    z-index: 2;
+}
+
+.shopClass_list_item dl {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 0;
+}
+
+.shopClass_list_item dt a {
+    color: #4b88da;
+    font-weight: bold;
+}
+
+.shopClass_list_item dt {
+    float: left;
+    line-height: 22px;
+}
+
+.shopClass_list_item dd {
+    padding-left: 66px;
+    line-height: 22px;
+}
+
+.shopClass_list_item dd a {
+    margin-right: 12px;
+    color: #666666;
+}
+
+.shopClass_list_item {
+    padding: 0px 20px;
+}
+
+.shopClass_list_item_bottom span {
+    margin-right: 10px;
+    background-color: #2785e6;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.shopClass_list_item_bottom {
+    padding: 6px 20px;
+}
+
+.shopClass_item_a_hover {
+    color: black !important;
+}
+
+.shopClass_item_a_hover_alink {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.shopClass_item_hover {
+    background-color: white;
+    border-left: 1px solid #4593FD;
+}
+
+/*banner*/
+.banner_car {
+    width: 810px;
+    height: 325px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2430px;
+    height: 325px;
+}
+
+.imgBox li {
+    float: left;
+}
+
+.imgBox img {
+    width: 810px;
+    height: 325px;
+    display: block;
+}
+
+.banner_index {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner_index li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.banner_index .active {
+    background-color: #ff7700;
+}
